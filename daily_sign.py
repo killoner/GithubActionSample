@@ -1,7 +1,7 @@
 import os
 import requests
 
-cookie = os.environ.get("JD_COOKIE")
+cookie = os.environ.get("COOKIE")
 
 url = ("https://api.m.jd.com/client.action?functionId=signBeanAct&body=%7B%22fp%22%3A%22-1%22%2C%22shshshfp%22%3A%22-1"
        "%22%2C%22shshshfpa%22%3A%22-1%22%2C%22referUrl%22%3A%22-1%22%2C%22userAgent%22%3A%22-1%22%2C%22jda%22%3A%22-1"
